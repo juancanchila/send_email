@@ -1,0 +1,8 @@
+name: Send Email
+type: module
+description: Demonstrates the Drupal Form API.
+core_version_requirement: ^8 || ^9
+configure: sendemail.description
+dependencies:
+  - drupal:node
+ 

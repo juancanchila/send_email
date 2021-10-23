@@ -1,0 +1,21 @@
+# Define default links for this module.
+sendemail.description:
+  title: Send Email
+  description: Form examples using Drupal Form API.
+  route_name: sendemail.description
+  expanded: TRUE
+
+sendemail.simple_form:
+  title: Simple form
+  description: A simple form example with submit processing.
+  route_name: sendemail.simple_form
+  parent: sendemial.description
+  weight: -10
+
+
+
+
+
+
+
+

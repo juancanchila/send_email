@@ -1,0 +1,15 @@
+sendemail.description:
+  path: '/send'
+  defaults:
+    _controller:  '\Drupal\send_email\Controller\send_email_Controller::content'
+    _title: 'Form API Examples'
+  requirements:
+    _permission: 'access content'
+
+sendemail.simple_form:
+  path: '/simple-form'
+  defaults:
+    _form:  '\Drupal\send_email\Form\send_email_Form'
+    _title: 'Simple form'
+  requirements:
+    _permission: 'access content'
